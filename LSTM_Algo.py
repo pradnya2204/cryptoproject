@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import ruptures as rpt
 
-# Initialize Yahoo Finance
+# Additional installation steps for yfinance
 yf.pdr_override()
 
 # Define the LSTM model using PyTorch
@@ -148,3 +148,7 @@ def app():
 
 if __name__ == '__main__':
     app()
+
+
+
+

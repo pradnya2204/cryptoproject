@@ -37,7 +37,7 @@ def app():
 
     for coin in data:
 
-    # Add HTML/CSS styling to decrease image size
+    
         coin_info = f'<img src="{coin["image"]}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px;" />'
         coin_info += f'<span style="color: ##fffff;">{coin["name"]} ({coin["symbol"].upper()})  </span>   '
         coin_info += f'<span style="color: #00FF00;">   Price: ${coin["current_price"]}</span>   '
